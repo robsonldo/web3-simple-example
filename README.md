@@ -11,3 +11,7 @@ Run the following line in the terminal: `npm install`.
 ### Configure
 
 Copy the file `config-example.json` to `config.json` and fill it correctly with your data.
+
+### Start
+
+Run the following line in the terminal: `node index.js`.
