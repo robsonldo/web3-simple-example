@@ -1,0 +1,51 @@
+{
+  "isProduction": true,
+  "production": {
+    "provider": "https://bsc-dataseed.binance.org",
+    "chainId": 56,
+    "privateKey": "your_key",
+    "toAddress": "0x2222.......",
+    "watchDogTimeout": 10000,
+    "tokens": [
+      {
+        "token": "MAIN",
+        "address": "0x0",
+        "balance": 0.0
+      },
+      {
+        "token": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "balance": 0.0
+      }
+    ],
+    "log": {
+      "logDirectory": "./logs",
+      "fileNamePattern": "log-<DATE>.log",
+      "dateFormat": "MM.DD.YYYY"
+    }
+  },
+  "test": {
+    "provider": "https://data-seed-prebsc-1-s1.binance.org:8545",
+    "chainId": 97,
+    "privateKey": "your_key",
+    "toAddress": "0x2222.......",
+    "watchDogTimeout": 10000,
+    "tokens": [
+      {
+        "token": "MAIN",
+        "address": "0x0",
+        "balance": 0.0
+      },
+      {
+        "token": "BUSD",
+        "address": "0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
+        "balance": 0.0
+      }
+    ],
+    "log": {
+      "logDirectory": "./logs",
+      "fileNamePattern": "logTest-<DATE>.log",
+      "dateFormat": "MM.DD.YYYY"
+    }
+  }
+}

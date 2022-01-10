@@ -1,0 +1,18 @@
+{
+  "mainnet": 1,
+  "morden": 2,
+  "ropsten": 3,
+  "rinkeby": 4,
+  "ubiqMainnet": 8,
+  "ubiqTestnet": 9,
+  "rootstockMainnet": 30,
+  "rootstockTestnet": 31,
+  "kovan": 42,
+  "bsc": 56,
+  "ethereumClassicMainnet": 61,
+  "ethereumClassicTestnet": 62,
+  "ewasmTestnet": 66,
+  "gethPrivateChains": 1337,
+
+  "bsct": 97
+}

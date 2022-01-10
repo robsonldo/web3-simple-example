@@ -1,0 +1,13 @@
+{
+  "name": "web3-simple-example",
+  "version": "1.0.0",
+  "description": "Simple example of how to read a balance and make transfers between addresses.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "simple-node-logger": "^21.8.12",
+    "web3": "^1.6.1"
+  }
+}
